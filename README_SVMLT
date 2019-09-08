@@ -1,0 +1,19 @@
+the two folders contain 3 codes to be run successfully to get the boundary flcutuation spectrum for circular and planar interface respectively.
+
+codes in the circular_boundary folder:
+
+1) get_bnd_svm.py - getting boundary using SVM
+2) avg_bnd.py - obtaining an average boundary from the different boundaries obtained
+3) spectrum_calc.py - calculating the flcutuation spectrum
+
+codes in the planar_boundary folder: 
+
+1) get_bnd_svm.py - getting boundary using SVM
+2) avg_bnd.py - obtaining an average boundary from the different boundaries obtained
+3) spectrum_calc.py - calculating the flcutuation spectrum
+
+The codes need to be run in the order in which they are written above. 
+
+The data files needed for a test run are provided in the data_file folder for each of these cases. The lipids have been classified into ordered and disordered according to the lipid type in both these cases.
+
+The data files are of the form: x,y,identity. Identity is given a 0 for saturated and 1 for unsaturated lipids.
